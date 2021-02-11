@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+
+<section class="contactarea">
+    <aside class="left">
+        <img src="https://i.pinimg.com/originals/e7/54/39/e75439182a4e22ed430bbeee6b82b092.jpg" alt="">
+        <article class="icone">
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+        </article>
+    </aside>
+   
+    <aside class="right">
+        <article class="info">
+            <h1>Say hey</h1>
+            <p>Whether you want to hire me or just need some advice, start here. 
+                I love sending snail mail.
+                 Leave me an address — I know your mailbox is sad and lonely.</p>
+        </article>
+    <div class="form-group title">
+        
+        <input
+        [(ngModel)]="contact.FirstName"
+         type="text" placeholder="First name" class="form-control">
+        <input
+        [(ngModel)]="contact.LastName"
+         type="text" placeholder="last name" class="form-control twice">
+    </div>
+    <div class="form-group">
+        <label for="">Email</label>
+        <input
+        [(ngModel)]="contact.Mail"
+        type="text" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">website</label>
+        <input 
+          [(ngModel)]="contact.Website"
+        type="text" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">What are you listening to?</label>
+        <input 
+        [(ngModel)]="contact.Listening"
+        type="text" class="form-control">
+    </div>
+   
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Tell me somethinge good</label>
+        <textarea
+        
+         class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <article class="bottom">
+        <button
+        (click)="SaveInfo()"
+         type="button" class="btn btn-outline-warning">Just and it</button>
+    </article>
+</aside>
+      
+</section>

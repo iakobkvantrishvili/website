@@ -1,0 +1,139 @@
+.info{
+    margin-top: 20px;
+}
+.tttt{
+    margin: auto;
+    max-width: 31%;
+    font-size: 26px;
+}
+.goto{
+  
+    text-decoration: none;
+    font-size: 26px;
+    color: #5C755C;
+}
+article{
+    margin:20px auto;
+    max-width: 12%;
+
+}
+.flaxbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+.img h1{
+    position: absolute;
+    
+    height: 30px;
+    width: 119px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+  
+    
+   
+}
+.img a{
+    text-decoration: none;
+    color: azure;
+    font-size: 40px;
+}
+.work{
+    width: 100%;
+ 
+}
+.job{
+    width: 94%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    background-image: url(https://themilsource.com/wp-content/uploads/2020/04/0.jpeg);
+    background-size: cover;
+    background-position: center;
+  
+}
+.job h1{
+    position: absolute;
+    
+    height: 30px;
+    width: 119px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+  
+}
+.job a{
+    text-decoration: none;
+    color: azure;
+    font-size: 40px;
+}
+.bottom{
+
+    width: 5%;
+}
+.icone{
+    display: flex;
+    justify-content: space-around;
+    width: 6%;
+}
+.icone a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.btn{
+    font-size: 13px;
+}
+
+@media screen and (max-width:600px){
+    .flaxbox{
+        flex-wrap: wrap;
+    }
+  .tttt{
+      
+        max-width: 70%;
+        font-size: 26px;
+    }
+    article{
+        max-width: 50%;
+    }
+    .bottom {
+        width: 20%;
+    }
+    .bottom .btn{
+        width: 100%;
+    }
+}
+.one{
+    background-image: url(https://cambodia.itstep.org/dist/images/academy/camps-landing/collage/4/collage13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.two{
+    background-image: url(https://cnet2.cbsistatic.com/img/ZfL4WRuKv3LxnxKSAL4UJVHyysg=/940x0/2019/07/29/6109b01f-e32f-457d-9533-cd55b68ba5ba/d6j9ongwaam4yrm.png);
+    background-size: cover;
+    background-position: center;
+}
+.three{
+    background-image: url(https://www.thenextsales.io/wp-content/uploads/2020/10/linkedin-statistics-1.png);
+    background-size: cover;
+    background-position: center;
+}
+.four{
+    background-image: url(https://lh5.googleusercontent.com/-KXuY_Re_cC58YxA_72BBYRezaLWK1TxxMvui_1NxWpg7PujnmuXSI_M9YVFgdn3hle1Jv1YU1Q45t7QItxjd29U5DssraDkKsUiMJx6tRv8TgGCh-PKyh0u2OtNwYxEzvA1-HZd);
+    background-size: cover;
+    background-position: center;
+}
